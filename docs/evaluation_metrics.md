@@ -103,23 +103,7 @@ and feature availability.
 
 ---
 
-## Decisions / Assumptions
-- MAE is chosen as the primary metric due to its business interpretability
-- Cross-validation is mandatory for all model comparisons
-- A simpler model may be preferred if performance gains from complex models
-  are marginal or unstable
-
----
-
-## Risks / Notes
-- Metrics may vary significantly depending on data splits
-- Log-transformed targets require careful interpretation
-- Optimizing RMSE alone may lead to undesirable large-error sensitivity
-
----
-
-## Definition of Done
-- [ ] Primary and secondary metrics clearly defined and justified
-- [ ] Validation strategy documented
-- [ ] Success criteria explicitly stated
-- [ ] Evaluation approach aligned with business objectives
+## 6. Document Status
+- Related Issue: Issue #2 — Define evaluation metrics & success criteria
+- Status: Approved
+- Last updated: _to be updated_
